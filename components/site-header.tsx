@@ -68,6 +68,14 @@ export function SiteHeader() {
         <NavLinks className="hidden items-center gap-6 font-headline text-sm font-bold tracking-tight md:flex" />
 
         <div className="hidden items-center gap-3 md:flex">
+          <a
+            href="https://www.linkedin.com/in/duncan-mckee-cmu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-md border border-outline-variant px-6 py-2 text-sm font-headline font-semibold text-primary transition-colors hover:bg-surface-container-low"
+          >
+            Connect with me
+          </a>
           <Link
             href="/#contact"
             className="rounded-md bg-linear-to-br from-primary to-primary-container px-6 py-2 text-sm font-headline font-bold text-white opacity-90 shadow-sm transition-all duration-150 hover:scale-[0.98] hover:opacity-100"
@@ -112,13 +120,24 @@ export function SiteHeader() {
             className="flex flex-col gap-1 font-headline text-base font-bold"
             onNavigate={() => setOpen(false)}
           />
-          <Link
-            href="/#contact"
-            onClick={() => setOpen(false)}
-            className="mt-4 inline-flex w-full items-center justify-center rounded-md bg-linear-to-br from-primary to-primary-container px-6 py-3 text-center font-headline font-bold text-white"
-          >
-            Get in touch
-          </Link>
+          <div className="mt-4 flex flex-col gap-3">
+            <a
+              href="https://www.linkedin.com/in/duncan-mckee-cmu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              className="inline-flex w-full items-center justify-center rounded-md border border-outline-variant px-6 py-3 text-center font-headline font-semibold text-primary transition-colors hover:bg-surface-container-low"
+            >
+              Connect with me
+            </a>
+            <Link
+              href="/#contact"
+              onClick={() => setOpen(false)}
+              className="inline-flex w-full items-center justify-center rounded-md bg-linear-to-br from-primary to-primary-container px-6 py-3 text-center font-headline font-bold text-white"
+            >
+              Get in touch
+            </Link>
+          </div>
         </div>
       ) : null}
     </header>
