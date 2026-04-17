@@ -55,11 +55,17 @@ export function SpecialtyIcon({ id }: { id: Specialty["id"] }) {
           />
         </svg>
       );
-    case "ppc-strategy":
+    case "marketing-systems":
       return (
         <svg className={iconClass} viewBox="0 0 24 24" fill="none" aria-hidden>
           <path
-            d="M12 20v-6M8 12l4-8 4 8M6 18h12"
+            d="M4 7h16M4 12h16M4 17h10"
+            stroke="currentColor"
+            strokeWidth="1.75"
+            strokeLinecap="round"
+          />
+          <path
+            d="M18 15l2 2-2 2"
             stroke="currentColor"
             strokeWidth="1.75"
             strokeLinecap="round"
@@ -67,20 +73,20 @@ export function SpecialtyIcon({ id }: { id: Specialty["id"] }) {
           />
         </svg>
       );
-    case "email-strategy":
+    case "analytics":
       return (
         <svg className={iconClass} viewBox="0 0 24 24" fill="none" aria-hidden>
           <path
-            d="M4 6h16v12H4V6z"
-            stroke="currentColor"
-            strokeWidth="1.75"
-          />
-          <path
-            d="M4 7l8 6 8-6"
+            d="M4 19V5M4 19h16"
             stroke="currentColor"
             strokeWidth="1.75"
             strokeLinecap="round"
-            strokeLinejoin="round"
+          />
+          <path
+            d="M7 19v-7M11 19V9M15 19v-5M19 19v-9"
+            stroke="currentColor"
+            strokeWidth="2.25"
+            strokeLinecap="round"
           />
         </svg>
       );

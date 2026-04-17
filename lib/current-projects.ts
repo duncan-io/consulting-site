@@ -23,12 +23,12 @@ export const currentProjects: WebProject[] = [
     repoUrl: undefined,
   },
   {
-    id: "project-two",
-    title: "Project two",
+    id: "sitesleuth",
+    title: "Site Sleuth (name WIP)",
     summary:
-      "Short description of the second web project. Add links below when you have a live URL or public repository.",
-    status: "Exploring",
-    stack: ["React", "Tailwind CSS"],
+        "Site Sleuth is a tool that help provide constant monitoring and root cause analysis for digital marketing channels using 1st party data from the Google Suite, Meta, LinkedIn, and all of yor favorite digitl channels.",
+    status: "Building",
+    stack: ["NextJS", "Tailwind CSS", "Agentic AI"],
     liveUrl: undefined,
     repoUrl: undefined,
   },

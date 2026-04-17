@@ -15,18 +15,21 @@ function initialsFromName(name: string) {
 export default function Home() {
   return (
     <main className="w-full flex-1">
-      <FadeIn as="section" className="mx-auto max-w-7xl px-4 pb-16 pt-16 sm:px-8 md:flex md:flex-row md:items-center md:gap-16 md:pb-24 md:pt-28">
-        <div className="relative z-10 flex w-full flex-col gap-8 md:w-1/2">
+      <FadeIn
+        as="section"
+        className="home-hero flex w-full flex-col items-center px-4 pb-16 pt-16 text-center sm:px-8 md:pb-24 md:pt-28"
+      >
+        <div className="relative z-10 mx-auto flex w-full max-w-3xl flex-col items-center gap-8">
           <p className="text-sm font-medium uppercase tracking-widest text-primary">
             Digital marketing consultant
           </p>
           <h1 className="font-headline text-balance text-4xl font-bold leading-[1.1] tracking-[-0.02em] text-primary sm:text-5xl md:text-[3.5rem]">
            Digital Strategy That Actually Works
           </h1>
-          <p className="max-w-lg text-lg text-on-surface-variant">
+          <p className="mx-auto max-w-lg text-lg text-on-surface-variant">
             I help teams and businesses build custom digital strategies to drive measurable growth
           </p>
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center">
             <Link
               href="/specialties"
               className="inline-flex items-center justify-center rounded-md bg-linear-to-br from-primary to-primary-container px-8 py-4 font-headline font-bold text-white shadow-[0_20px_40px_-5px_rgba(26,28,31,0.06)] transition-opacity hover:opacity-90"
@@ -41,17 +44,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-
-        <div className="relative mt-12 w-full md:mt-0 md:w-1/2">
-          <div
-            className="absolute inset-0 -translate-y-4 translate-x-4 rounded-xl bg-linear-to-br from-primary/10 to-primary-container/10 blur-3xl"
-            aria-hidden
-          />
-          <div
-            className="relative aspect-[4/3] w-full rounded-xl bg-linear-to-br from-surface-container-highest via-surface-container-low to-secondary-container/30 shadow-[0_40px_60px_-5px_rgba(26,28,31,0.06)]"
-            aria-hidden
-          />
-        </div>
       </FadeIn>
 
       <FadeIn
@@ -64,11 +56,10 @@ export default function Home() {
           <div className="mb-12 flex flex-col gap-4 md:mb-16 md:flex-row md:items-end md:gap-12">
             <div className="md:w-1/2">
               <h2 className="font-headline text-[1.75rem] tracking-tight text-primary">
-                What I focus on
+                What I can do for you
               </h2>
               <p className="mt-3 text-on-surface-variant">
-                Six practice areas—briefly here, with more depth on the
-                specialties page.
+                These are the ways I help teams win and businesses grow. Click on one to learn more.
               </p>
             </div>
           </div>

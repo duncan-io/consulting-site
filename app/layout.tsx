@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: "%s | Duncan McKee",
   },
   description:
-    "Website strategy, CRO, SEO, reputation management, PPC, and email—practical consulting for growth-minded teams.",
+    "Website strategy, CRO, SEO, reputation management, marketing systems, and analytics—practical consulting for growth-minded teams.",
 };
 
 export default function RootLayout({

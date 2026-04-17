@@ -85,41 +85,41 @@ export const specialties: Specialty[] = [
     ],
   },
   {
-    id: "ppc-strategy",
-    title: "PPC Strategy",
+    id: "marketing-systems",
+    title: "Marketing Systems",
     summary:
-      "Spend smarter on paid search and social with clear account structure, creative tests, and honest attribution.",
+      "Robust, repeatable processes and systems so your team can execute marketing strategy at a high level—consistently.",
     overview:
-      "Paid media fails when goals, audiences, and creative are misaligned—or when accounts grow into unmaintainable complexity. I help you simplify, test, and scale what actually works.",
+      "Strategy only matters when it shows up in how people work day to day. I help you design marketing operating rhythms: clear ownership, workflows, and tooling so campaigns, content, and measurement run as a coherent system—not a patchwork of one-offs.",
     helpWith: [
-      "Account and campaign structure matched to products and regions",
-      "Audience, keyword, and placement strategy with guardrails",
-      "Creative and landing-page testing plans tied to CPA/ROAS targets",
-      "Budget pacing, bid strategies, and reporting that leadership can trust",
+      "Workflow and handoff design across marketing, creative, and sales",
+      "Playbooks, templates, and QA so quality stays high as volume grows",
+      "Tooling choices and integrations that match how your team actually works",
+      "Measurement definitions and reporting hooks tied to the system—not orphan dashboards",
     ],
     outcomes: [
-      "Lower wasted spend and clearer picture of incremental performance",
-      "Faster iteration on ads and landing experiences",
-      "Documentation so transitions and audits do not reset progress",
+      "Less firefighting and fewer dropped balls between teams",
+      "Onboarding and change that do not depend on a single person’s memory",
+      "A repeatable engine leadership can scale and inspect with confidence",
     ],
   },
   {
-    id: "email-strategy",
-    title: "Email Strategy",
+    id: "analytics",
+    title: "Analytics",
     summary:
-      "Lifecycle email that respects the inbox: segmentation, automation, and copy that drives action.",
+      "Measurement you can trust: tagging, events, and attribution that connect every marketing channel to outcomes.",
     overview:
-      "Email is still one of the highest-ROI channels when strategy leads. I help you design programs that feel personal at scale and stay compliant with evolving expectations.",
+      "Default platform reports rarely tell the full story. I help teams build analytics systems that capture clean first-party data, model how channels interact, and support decisions leadership actually uses—not vanity metrics.",
     helpWith: [
-      "Lifecycle mapping: onboarding, nurture, retention, win-back",
-      "List health, deliverability basics, and preference centers",
-      "Automation architecture and trigger logic that marketing can own",
-      "Testing calendars for subject lines, content modules, and CTAs",
+      "Event schemas, tag management, and data-layer patterns your team can maintain",
+      "UTM discipline, campaign taxonomy, and cross-channel journey mapping",
+      "Attribution approaches suited to your funnel—from paid and organic to email and social",
+      "Dashboards and definitions that align marketing, product, and finance on what “good” means",
     ],
     outcomes: [
-      "Higher engagement and revenue per subscriber",
-      "Fewer batch blasts and more purposeful journeys",
-      "Clear metrics beyond open rate in a privacy-aware world",
+      "Clearer picture of which campaigns drive pipeline and revenue—not just clicks",
+      "Fewer blind spots when privacy rules or ad platforms change how data flows",
+      "A measurement stack that survives team changes and vendor churn",
     ],
   },
 ];
