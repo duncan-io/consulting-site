@@ -1,0 +1,11 @@
+# Cloudflare Pages — static Next.js export (`next.config.ts` uses output: "export").
+# Git-connected project: Workers & Pages → Create → Pages → connect this repo.
+# Use framework preset "Next.js (Static HTML Export)" or equivalent:
+#   Build command: npm run build   (Pages installs deps from package-lock.json first; or use Bun + bun run build)
+#   Build output directory: out
+# If the build image ignores .nvmrc, set environment variable NODE_VERSION=22 (see .nvmrc).
+# See https://developers.cloudflare.com/pages/framework-guides/nextjs/deploy-a-static-nextjs-site/
+
+name = "duncan-consultant"
+compatibility_date = "2025-04-01"
+pages_build_output_dir = "out"
