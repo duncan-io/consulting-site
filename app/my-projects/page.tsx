@@ -9,6 +9,8 @@ export const metadata: Metadata = {
     "Current web projects—work in progress, stack, and links when available.",
 };
 
+// Just adding stuff to have something to commit and force a build
+
 export default function WorkingOnPage() {
   return (
     <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-16 sm:px-6 sm:py-24">
