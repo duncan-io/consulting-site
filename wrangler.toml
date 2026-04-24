@@ -9,13 +9,17 @@
 #   Build command:     bun run build   (or npm run build; use the same package manager as the lockfile)
 #   Build output:      out             (must match `pages_build_output_dir` below)
 #   "Deploy" step:   leave empty (recommended). After a successful build, Pages uploads `out`
-#                    automatically. If you set a custom deploy command, do not use bare `wrangler`:
-#                    the CLI is only in `node_modules/.bin`, so you get `wrangler: not found`.
-#                    Use `bunx wrangler pages deploy out` instead, or `bun run pages:deploy`.
+#                    automatically. If you keep a custom deploy command, do not use bare
+#                    `wrangler pages deploy out` — you get `wrangler: not found` (not on PATH).
+#                    Use one of:
+#                      - (empty deploy command)  — preferred
+#                      - `bun run pages:deploy`   — uses package.json (bunx wrangler)
+#                      - `bunx wrangler pages deploy out`
+#                      - `sh scripts/cf-pages-deploy.sh`  — POSIX; prepends node_modules/.bin
 #   Do not use        `wrangler deploy` here — that targets Workers and will fail (no worker entry).
 #
 # Optional: direct upload / one-off deploy from a machine (not the default for Git-connected Pages):
-#   `bunx wrangler pages deploy out`  or  `bun run pages:deploy`  (not `wrangler deploy`).
+#   `bun run pages:deploy`  or  `sh scripts/cf-pages-deploy.sh`  (not `wrangler deploy`).
 #
 # If the build image ignores .nvmrc, set NODE_VERSION=22 in Pages → Environment variables → Build.
 
