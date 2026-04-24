@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Inter, Manrope } from "next/font/google";
+import Script from "next/script";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
@@ -43,20 +44,23 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${inter.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <head>
-      {/* Google Tag Manager */}
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KWRM2KL6');</script>
-{/* End Google Tag Manager */}
-      </head>
       <body className="flex min-h-full flex-col bg-background text-foreground">
-      {/* Google Tag Manager (noscript) */}
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWRM2KL6"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-{/* End Google Tag Manager (noscript) */}
+        <Script
+          id="gtm"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KWRM2KL6');`,
+          }}
+        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KWRM2KL6"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+            title="Google Tag Manager"
+          />
+        </noscript>
         <SiteHeader />
         <div className="flex-1">{children}</div>
         <SiteFooter />
