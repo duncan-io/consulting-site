@@ -8,8 +8,10 @@
 #   Framework preset: "Next.js (Static HTML Export)" (or match manually):
 #   Build command:     bun run build   (or npm run build; use the same package manager as the lockfile)
 #   Build output:      out             (must match `pages_build_output_dir` below)
-#   "Deploy" step:   none required in the dashboard. After a successful build, Pages uploads
-#                    the output directory automatically. A failed build does not go live.
+#   "Deploy" step:   leave empty (recommended). After a successful build, Pages uploads `out`
+#                    automatically. If you set a custom deploy command, do not use bare `wrangler`:
+#                    the CLI is only in `node_modules/.bin`, so you get `wrangler: not found`.
+#                    Use `bunx wrangler pages deploy out` instead, or `bun run pages:deploy`.
 #   Do not use        `wrangler deploy` here — that targets Workers and will fail (no worker entry).
 #
 # Optional: direct upload / one-off deploy from a machine (not the default for Git-connected Pages):

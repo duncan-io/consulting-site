@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "pages:deploy": "wrangler pages deploy out"
+    "pages:deploy": "bunx wrangler pages deploy out"
   },
   "dependencies": {
     "next": "16.2.4",
