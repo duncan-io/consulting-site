@@ -20,8 +20,7 @@ export default function TestimonialsPage() {
           What people say
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-zinc-600">
-          Honest feedback from people I’ve worked with—strategy, execution, and
-          how we collaborate. Edit quotes and attribution in one place.
+          Honest feedback from people I’ve worked with.
         </p>
       </FadeIn>
 
