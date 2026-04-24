@@ -86,20 +86,20 @@ export const specialties: Specialty[] = [
   },
   {
     id: "marketing-systems",
-    title: "Marketing Systems",
+    title: "Marketing Systems & Automation",
     summary:
-      "Robust, repeatable processes and systems so your team can execute marketing strategy at a high level—consistently.",
+      "Operating rhythms plus automation—code, processes, and agentic AI—so strategy turns into consistent execution without drowning in repetitive work.",
     overview:
-      "Strategy only matters when it shows up in how people work day to day. I help you design marketing operating rhythms: clear ownership, workflows, and tooling so campaigns, content, and measurement run as a coherent system—not a patchwork of one-offs.",
+      "Strategy only matters when it shows up in how people work day to day. I help you design marketing operating rhythms with clear ownership and workflows, then automate what is repetitive: integrations and scripts where code fits, documented processes where people stay in the loop, and agentic AI for bounded tasks with guardrails. Campaigns, content, and measurement run as one system—not a patchwork of one-offs.",
     helpWith: [
       "Workflow and handoff design across marketing, creative, and sales",
       "Playbooks, templates, and QA so quality stays high as volume grows",
-      "Tooling choices and integrations that match how your team actually works",
-      "Measurement definitions and reporting hooks tied to the system—not orphan dashboards",
+      "Code-friendly automation and integrations for repetitive syncs, routing, and publishing your team can maintain",
+      "Agentic AI for well-bounded tasks, with guardrails and measurement hooks tied to the wider system",
     ],
     outcomes: [
       "Less firefighting and fewer dropped balls between teams",
-      "Onboarding and change that do not depend on a single person’s memory",
+      "Less toil on repetitive work: faster cycles, fewer errors, and automation you can trust",
       "A repeatable engine leadership can scale and inspect with confidence",
     ],
   },

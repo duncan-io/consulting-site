@@ -22,8 +22,7 @@ export default function WorkingOnPage() {
           Current web projects
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-zinc-600">
-          A snapshot of what I’m building in the open—two active projects with
-          room to grow. Details and links live in each card.
+          When I am not helping clients create digital strategies, I am building my own projects, many of which I am very proud of. Learn more below.
         </p>
       </FadeIn>
 

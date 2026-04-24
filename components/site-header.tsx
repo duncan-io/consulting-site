@@ -6,9 +6,9 @@ import { useState } from "react";
 
 const nav = [
   { href: "/", label: "Home", match: (p: string) => p === "/" },
-  { href: "/my-projects", label: "My Projects", match: (p: string) => p === "/my-projects" },
   { href: "/specialties", label: "Specialties", match: (p: string) => p === "/specialties" },
   { href: "/testimonials", label: "Testimonials", match: (p: string) => p === "/testimonials" },
+  { href: "/my-projects", label: "Projects", match: (p: string) => p === "/my-projects" },
 ] as const;
 
 function NavLinks({

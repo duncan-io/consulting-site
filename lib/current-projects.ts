@@ -26,7 +26,7 @@ export const currentProjects: WebProject[] = [
     id: "sitesleuth",
     title: "Site Sleuth (name WIP)",
     summary:
-        "Site Sleuth is a tool that help provide constant monitoring and root cause analysis for digital marketing channels using 1st party data from the Google Suite, Meta, LinkedIn, and all of yor favorite digitl channels.",
+        "Site Sleuth is a tool that help provide constant monitoring and root cause analysis for digital marketing channels using 1st party data from the Google Suite, Meta, LinkedIn, and all of yor favorite digitla channels.",
     status: "Building",
     stack: ["NextJS", "Tailwind CSS", "Agentic AI"],
     liveUrl: undefined,

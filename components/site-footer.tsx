@@ -24,7 +24,7 @@ export function SiteFooter() {
             href="/my-projects"
             className="text-slate-400 transition-transform duration-200 hover:translate-x-0.5 hover:text-white"
           >
-            My Projects
+            Projects
           </Link>
         </div>
         <p className="text-center text-slate-400 sm:text-right">

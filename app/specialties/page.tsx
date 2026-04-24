@@ -6,7 +6,7 @@ import { specialties } from "@/lib/specialties";
 export const metadata: Metadata = {
   title: "Specialties",
   description:
-    "Website strategy, CRO, SEO, reputation management, marketing systems, and analytics—in depth.",
+    "Website strategy, CRO, SEO, reputation management, marketing systems & automation, and analytics—in depth.",
 };
 
 export default function SpecialtiesPage() {
