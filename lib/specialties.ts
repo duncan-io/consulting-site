@@ -12,19 +12,19 @@ export const specialties: Specialty[] = [
     id: "website-strategy",
     title: "Website Strategy",
     summary:
-      "Align your site with business goals, audiences, and journeys so every page earns its place.",
+      "Treat your site as a go-to-market asset: the right story for the right audience, lead paths that make sense, and a narrative sales can use in live conversations.",
     overview:
-      "Your website should be a deliberate system—not a pile of pages. I help you define what to build, what to cut, and how experiences should flow from first touch to conversion.",
+      "Your website is where positioning meets pipeline. I help you clarify who you're for, what to ask visitors to do at each stage, and how pages and campaigns support demand, qualified leads, and the sales cycle—so marketing, lead gen, and sales stay pointed at the same outcomes.",
     helpWith: [
-      "Information architecture and navigation that match how people decide",
-      "Messaging hierarchy and page templates tied to funnel stages",
-      "Requirements for speed, accessibility, and measurable outcomes",
-      "Stakeholder workshops and prioritization so roadmaps stay realistic",
+      "Positioning, segments, and messaging hierarchy on the pages that matter",
+      "Lead capture strategy: offers, primary CTAs, and qualification vs. volume",
+      "Journeys and page priorities that reflect how buyers decide—not a flat sitemap",
+      "Workshops with marketing and sales to align on priorities, proof, and handoffs to CRM or nurture",
     ],
     outcomes: [
-      "Clear rationale for what ships next (and what waits)",
-      "Fewer costly redesign loops and more confident launches",
-      "A site structure that marketing and product can iterate on together",
+      "A clearer ICP-facing story that prospects and reps can repeat with confidence",
+      "Coherent demand: campaigns, site, and follow-up all pulling toward the same goals",
+      "Marketing and sales agreed on what the site must deliver for pipeline—not just launch dates",
     ],
   },
   {

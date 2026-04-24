@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   },
   description:
     "Website strategy, CRO, SEO, reputation management, marketing systems & automation, and analytics—practical consulting for growth-minded teams.",
+  icons: {
+    icon: "/android-chrome-512x512.png",
+  },
 };
 
 export default function RootLayout({
